@@ -1,0 +1,44 @@
+.banner{
+    width: 100%;
+    height: 350px;
+    background-color: #e9f8ff;
+    &__heading{
+        font-size: 2.125rem;
+        color: #1a5296;
+        font-weight: bold;
+    }
+    &__subheading{
+        color: #1a5296;
+        font-size: 1.3rem;
+    }
+    &__link{
+        color:rgba(0, 147, 233, 0.7);
+    }
+
+}
+.subscribe{
+    &__text{
+        font-size: 0.875rem;
+    }
+    &__form{
+        position: relative;
+    }
+    &__btnsubmit{
+        position: absolute;
+        right: 0;
+        top: 10%;
+        color: #1a5296;
+        font-weight: bold;
+    }
+    &__input{
+        padding: 1.5rem 0;
+        padding-left: 30px;
+    }
+    &__icon{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 5px;
+        top: 30%;
+    }
+}

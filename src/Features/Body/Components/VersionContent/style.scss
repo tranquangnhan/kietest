@@ -1,0 +1,27 @@
+.versioncontent{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    &__heading{
+        color: #0093e9;
+        text-align: left;
+        font-weight: 600;
+    }
+    &>ul>li{
+        display: flex;
+        margin-top: 0.5rem;
+    }
+    &__text{
+        text-align: left;
+        padding-left: 1rem;
+        color: #222b54;
+        font-weight: 500;
+    }
+    &__version{
+        color: #222b54;
+        text-align: left;
+        font-size: 18pt;
+        margin-bottom: 2rem;
+    }
+}

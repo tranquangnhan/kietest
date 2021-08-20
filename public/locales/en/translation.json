@@ -1,0 +1,88 @@
+{
+
+    "trial":"Trial",
+    "whatis":"What is Wordsmine?",
+    "newfeatures":"New Features",
+    "review":"Review",
+    "webapp":"Web App",
+    "logout":"Logout",
+    "hasbeenupgraded":"WordsMine has been upgraded",
+    "fastestway":"The fastest way to learn vocabulary, From everywhere and everytime",
+    "getstated":"Get started with WordsMine now.",
+    "subscribe":"Subscribe to our newsletter and never miss any upcoming articles",
+    "emailaddress":"Email address",
+    "submit":"Submit",
+    "jumpto":"Jump to",
+    "versions":"Versions",
+    "version":"Version",
+    "improvements":"IMPROVEMENTS",
+
+    "youcantailoryourlearning":" You can tailor your learning experience in Preference Mode.",
+    "youcanusefeedbackfeature":"You can use Feedback Feature to let us know what you want, we will do it for ya.",
+    "youcanput":"You can put on your favorite avatar.",
+    "youcanseetheoriginal":"You can see the original website where you add your vocabulary from.",
+    "newfeaturesarenow":" New features are now introduced in a What's new popup.",
+    "weaddeduseronboarding":"We added user onboarding feature to help you become more familiar with our platform.",
+    "optimizingperformance":"Optimizing performance.",
+
+    "youcanquicklyadd":"You can quickly add a new word in extension popup page.",
+    "wehavejustupgradedthedefinition":" We have just upgraded the definition feature, now you can look up word definition with different terminologies.",
+    "youcanknowhowtheword":"You can know how the word is used in different sentences, and you can save the one you like.",
+    "besidesaddingawordtermvia":"Besides adding a word term via \"hot link\", now you can add its definitions and examples too.",
+    "youcancreateafolder":" You can create a folder to group your vocabularies into different topics. For example, an IELTS folder that contains all the vocabularies you may need for the exam!",
+    "youcanviewword":"You can view word dashboard in paging or infinite loading mode.",
+    "weintroducetheflipmode":"We introduce the flip mode, you can check all the word terms, spelling and your personalized definitions in one glance.",
+    "youcanconfigurewhich":" You can configure which page you want to enable/disable the definition popup.",
+
+    "showawarningmessage":"Show a warning message when user saves a word that is added before.",
+    "showaloginbuttonwhen":" Show a login button when the user saves a word from the definition popup and is not logged in yet.",
+    "movevietnamesedefinitionto":" Move Vietnamese definition to the upper position in definition popup extension.",
+    "showthecurrentselection":"Show the current selection amongst other of sort mode and group mode.",
+    "loginbyeitherusernameoremail":"  Login by either username or email.",
+    "bugfixes":"BUG FIXES",
+
+    "inconsistentwordsstatus":"Inconsistent words' status display in the popup (via double click) and list word popup in extension.",
+    "linksindropdownmenu":"Links in dropdown menu did not work.",
+    "validateusernamebeforeregistration":"Validate user name before registration.",
+    "validateusernamebeforeupdatingpersonal":"Validate username before updating personal information",
+    "reloadpagewhenchanging":"Reload page when changing page mode.",
+    "sortbytime":"Sort by time",
+    "incorrectwordsshowed":"Incorrect words showed after changing page mode.",
+    "deleteword":"Delete word.",
+    "wordsarenotmatchingbetween":"Words are not matching between definition popup and home popup in extension.",
+    "fixerrormessage":"Fix error message when save a duplicate word in extension.",
+    "fixfeedbackposition":"Fix feedback's position.",
+    "cannotgetwordpronunciation":"Cannot get word pronunciation.",
+
+    "youcansavewordsdirectly":"You can save words directly via a \"hot link\".",
+    "onthewordsminehomepage":"On the WordsMine home page, you can try out the extension pop-up to check word definitions and add them to your personal word bank.",
+    "youcanleverage":"You can leverage sample sentences to build your custom definition.",
+    "youcanchecknew":"You can check new feature update in app dashboard.",
+
+
+    "updateapplayout":"Update app layout to a more user friendly approach.",
+    "addtooltipfor":"Add tooltip for actionable buttons.",
+    "showselectedvalue":"Show selected value of sort drop-down control.",
+    "movethefeedback":"Move the feedback icon to the right bottom sidebar.",
+    "beabletosearch":"Be able to search words without case sensitive.",
+    "showextensionnotification":"Show extension notification when you save words from our definition popup extension.",
+
+    "incorrectworddefinition":"Incorrect word definition format after adding its definition.",
+    "cardcontentdoesn":"Card content doesn't format correctly.",
+    "cannotgetpronunciation":"Cannot get pronunciation.",
+    "showhuman-friendlyerror":"Show human-friendly error message when sound is not found.",
+    "fixbugincorrectnumbersshowed":"Fix bug Incorrect numbers showed after deleting a word.",
+    "changefontwhich":"Change font which support both Vietnamese and English in web app.",
+    "wordsarenotsorted":"Words are not sorted by timestamp.",
+    "themodalcontent":"The modal content should be cleared after closing.",
+
+    "august2021":"August, 2021",
+    "april2021":"April 2021 ",
+    "march2021":"March 2021 ",
+
+    "privacy":"Privacy",
+    "terms":"Terms"
+
+
+
+}
