@@ -20,7 +20,7 @@ function Banner(props) {
     function sendEmail(e){
         e.preventDefault();
 
-        Axios.post('http://localhost:3001/sendemail',
+        Axios.post('https://backendforkie.herokuapp.com/sendemail',
         {toemail:toEmail}).then((res)=>{
             if (res.data.msg === 'success'){
                MySwal.fire({
