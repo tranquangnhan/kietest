@@ -21,15 +21,17 @@
         }
     }
     &__logo{
-        font-size: 1.9rem;
-        background-image: linear-gradient(
-        90deg
-        ,#0093e9,#80d0c7);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-weight: 700;
-        margin-bottom: 0;
-        cursor: pointer;
-        padding: 1rem;
+        h1{
+            font-size: 1.9rem;
+            background-image: linear-gradient(
+            90deg
+            ,#0093e9,#80d0c7) !important;
+            -webkit-background-clip: text !important;
+            color: transparent;
+            font-weight: 700;
+            margin-bottom: 0;
+            cursor: pointer;
+            padding: 1rem;
+        }
     }
 }

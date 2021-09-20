@@ -6,6 +6,7 @@
     "review":"Review",
     "webapp":"Web App",
     "logout":"Logout",
+    "login":"Login",
     "hasbeenupgraded":"WordsMine has been upgraded",
     "fastestway":"The fastest way to learn vocabulary, From everywhere and everytime",
     "getstated":"Get started with WordsMine now.",
@@ -80,9 +81,13 @@
     "april2021":"April 2021 ",
     "march2021":"March 2021 ",
 
-    "privacy":"Privacy",
-    "terms":"Terms"
+    "polycy":"Polycy",
+    "terms":"Terms",
+    "aboutus":"About us",
 
-
-
+    "wordsmineis":"Wordsmine is the first second language learning app that helps you collect vocabulary you see in daily Internet-surfing activities, and learn them faster.",
+    "installextension":"Install Extension Now",
+    "success":"Success",
+    "sent":"Đăng ký thành công!",
+    "error":"Opp! Error"
 }

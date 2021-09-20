@@ -14,3 +14,8 @@ a,a:hover{
 a:hover{
     color: #1a5296;
 }
+@media only screen and (max-width: 767px) {
+    .version{
+        padding: 0.8rem;
+    }
+}

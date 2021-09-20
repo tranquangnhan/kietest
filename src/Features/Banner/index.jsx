@@ -1,8 +1,8 @@
-import Axios from 'axios';
+import { send } from 'emailjs-com';
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import { useTranslation } from 'react-i18next';
 import "./style.scss";
 
 Banner.propTypes = {
@@ -19,20 +19,31 @@ function Banner(props) {
 
     function sendEmail(e){
         e.preventDefault();
+        const serviceYanID = 'service_dti88nb';
+        const serviceGmailID = 'service_jdtikj8';
+        const templateID = 'template_a5l7f77';
+        const userID = 'user_IjKdREgbghHCSpo400w6c';
 
-        Axios.post('https://backendforkie.herokuapp.com/sendemail',
-        {toemail:toEmail}).then((res)=>{
-            if (res.data.msg === 'success'){
-               MySwal.fire({
-                    title: <p>Gửi Mail Thành Công</p>,
-                    icon: "success",
-                })
-            }else if(res.data.msg === 'fail'){
-                MySwal.fire({
-                    title: <p>Gửi Mail Thất Bại</p>,
-                    icon: "error",
-                })
-            }
+        const templateParams = {
+            to: toEmail,
+        };
+
+        send(serviceYanID,templateID,templateParams,userID).then(res=>{
+             MySwal.fire({
+                title: <strong>{t('success')}</strong>,
+                html: <i>{t('sent')}</i>,
+                icon: 'success'
+              })
+        }).catch(err=>{
+            console.error('error: ',err);
+             MySwal.fire({
+                title: <strong>{t('error')}</strong>,
+                icon: 'error'
+              })
+            send(serviceGmailID,templateID,templateParams,userID).then(res=>{
+            }).catch(err=>{
+                console.error('error: ',err);
+            })
         })
     }
     return (
@@ -42,7 +53,12 @@ function Banner(props) {
                    <div className="col-lg-7 mt-5">
                        <p className="banner__heading mt-3">{t('hasbeenupgraded')}</p>
                         <p className="banner__subheading">v1.3</p>
-                        <p>{t('fastestway')} <a href="" className="banner__link">{t('getstated')}</a> </p>
+                        <p>{t('fastestway')} <a href="https://wordsmine.com/" className="banner__link">{t('getstated')}</a> </p>
+                    </div>
+               </div>
+               <div className="row justify-content-center blog">
+                    <div className="col-lg-7">
+                        <p>{t('wordsmineis')} <a href="https://chrome.google.com/webstore/detail/wordsmine-one-stop-soluti/pfjninionlecmhganagpckidcmhgjlhd">{t('installextension')}</a> </p> 
                     </div>
                </div>
                <hr />
@@ -64,7 +80,6 @@ function Banner(props) {
                        </div>
                    </div>
                </div>
-
            </div>
         </div>
     );

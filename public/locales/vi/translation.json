@@ -6,12 +6,13 @@
     "review":"Đánh Giá",
     "webapp":"Web App",
     "logout":"Đăng Xuất",
+    "login":"Đăng Nhập",
     "hasbeenupgraded":"WordsMine! đã cập nhật",
     "fastestway":"Cách nhanh nhất để học từ vựng Bất kỳ đâu, bất kỳ lúc nào",
     "getstated":"Bắt đầu ngay với WordsMine",
     "subscribe":"Đăng ký với chúng tôi và nhận bài viết mới nhất",
     "emailaddress":"Nhập Email",
-    "submit":"Gửi",
+    "submit":"Nhận Tin",
     "jumpto":"Đi đến",
     "versions":"Phiên Bản",
     "version":"Phiên Bản",
@@ -79,7 +80,13 @@
     "april2021":"Tháng 4, 2021",
     "march2021":"Tháng 3, 2021",
 
-    "privacy":"Bảo Mật",
-    "terms":"Điều Kiện"
+    "polycy":"Chính Sách",
+    "terms":"Điều Kiện",
+    "aboutus":"Vể Chúng Tôi",
 
+    "wordsmineis":"Wordsmine! là ứng dụng giúp thu thập các từ vựng bạn thấy xung quanh qua các hoạt động lướt Internet hàng ngày và ghi nhớ chúng nhanh hơn.",
+    "installextension":"Cài Đặt Extension",
+    "success":"Thành Công",
+    "sent":"Email successfully sent",
+    "error":"Opp! lỗi rồi"
 }

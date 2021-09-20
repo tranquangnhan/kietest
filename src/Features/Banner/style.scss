@@ -1,6 +1,6 @@
 .banner{
+    padding-top: 2rem;
     width: 100%;
-    height: 350px;
     background-color: #e9f8ff;
     &__heading{
         font-size: 2.125rem;
@@ -14,6 +14,19 @@
     &__link{
         color:rgba(0, 147, 233, 0.7);
     }
+    .blog{
+        background-color:#333333;
+        padding: 2rem;
+        p{
+            color:white;
+            a{
+                color:#0093e9;
+                &:hover{
+                    color:#1a5296;
+                }
+            }
+        }
+    }
 
 }
 .subscribe{
@@ -25,10 +38,14 @@
     }
     &__btnsubmit{
         position: absolute;
-        right: 0;
-        top: 10%;
+        right:2%;
+        top: 12%;
         color: #1a5296;
         font-weight: bold;
+        &:hover{
+            background-color: #1a5296;
+            color: white;
+        }
     }
     &__input{
         padding: 1.5rem 0;
