@@ -57,7 +57,7 @@ function Banner(props) {
                     </div>
                </div>
                <div className="row justify-content-center blog">
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 ">
                         <p>{t('wordsmineis')} <a href="https://chrome.google.com/webstore/detail/wordsmine-one-stop-soluti/pfjninionlecmhganagpckidcmhgjlhd">{t('installextension')}</a> </p> 
                     </div>
                </div>
