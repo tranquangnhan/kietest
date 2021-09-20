@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { Select } from 'antd';
+import 'antd/dist/antd.css';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from '../../i18nextConf';
-import 'antd/dist/antd.css';
-import { Select } from 'antd';
 import './style.scss';
 
 Header.propTypes = {
