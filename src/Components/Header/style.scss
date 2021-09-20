@@ -4,7 +4,7 @@
     background-color: white;
     width: 100%;
     z-index: 100;
-    box-shadow: 0 3px 6px #efefef;
+    box-shadow: 0 6px 20px rgba(34, 43, 84 , 0.05%);
 }
 .logo{
     &>h1{
@@ -24,7 +24,7 @@
     .nav-link{
         font-size: 13.5pt;
         font-weight: 600;
-        color: #1890ff;
+        color: var(--primary);
         position: relative;
 
     }
@@ -53,16 +53,16 @@
         font-weight: 600;
     }
     &__login{
-        color: #1890ff;
+        color: var(--primary);
         padding: 0.6rem 0;
         width: 100%;
         font-weight: 500;
         border-radius: 10px;
         font-size: 13pt;
         font-weight: 600;
-        border:1px solid #1890ff;
+        border:1px solid var(--primary);
         &:hover{
-            color: #1890ff;
+            color: var(--primary);
         }
     }
  
@@ -203,7 +203,7 @@
             &__login{
                 padding: 0.3rem 0.5rem;
                 font-weight: 500;
-                color:#1890ff;
+                color:var(--primary);
             }
         }
     }
@@ -340,7 +340,7 @@
             &__login{
                 padding: 0.3rem 0.5rem;
                 font-weight: 500;
-                color:#1890ff;
+                color:var(--primary);
             }
         }
     }

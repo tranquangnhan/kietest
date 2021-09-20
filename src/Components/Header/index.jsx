@@ -42,7 +42,7 @@ function Header() {
                                         <a  className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" role="button">{t('webapp')}</a>
                                     </div>
                                     <div className="col-lg-4 pr-0">
-                                        <a  className="btn  btnheader__login " href="https://wordsmine.com/login" role="button">{t('login')}</a>
+                                        <a  className="btn  btnheader__login " href="https://app.wordsmine.com/" role="button">{t('join')}</a>
                                     </div>
                                     <div className="col-lg-4 d-flex align-items-center justify-content-center">
                                          <Select defaultValue="English" style={{ width: 120 }} onChange={changeLanguage}>
@@ -72,7 +72,7 @@ function Header() {
                                             <a  className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" role="button">{t('webapp')}</a>
                                         </div>
                                         <div className="col-lg-2 col-6 ">
-                                            <a  className="btn  btnheader__login " href="https://wordsmine.com/login" role="button">{t('login')}</a>
+                                            <a  className="btn  btnheader__login " href="https://app.wordsmine.com/" role="button">{t('join')}</a>
                                         </div>
                                     </div>
                                     </ul>

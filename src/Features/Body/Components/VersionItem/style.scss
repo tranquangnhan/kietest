@@ -2,18 +2,15 @@
     border-bottom: 1px solid #ccc;
     padding: 1rem;
     color:black;
-}
-.version:hover{
-    background: #eee;
-   
+    border-radius: 0;
+    &:hover{
+        background: #eee;
+        color:#0093e9;
+    }
+
 }
 
-a,a:hover{
-    text-decoration: none;
-}
-a:hover{
-    color: #1a5296;
-}
+
 @media only screen and (max-width: 767px) {
     .version{
         padding: 0.8rem;

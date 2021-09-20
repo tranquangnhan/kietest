@@ -4,11 +4,11 @@
     background-color: #e9f8ff;
     &__heading{
         font-size: 2.125rem;
-        color: #1a5296;
+        color: var(--heading);
         font-weight: bold;
     }
     &__subheading{
-        color: #1a5296;
+        color: var(--heading);
         font-size: 1.3rem;
     }
     &__link{
@@ -20,9 +20,9 @@
         p{
             color:white;
             a{
-                color:#0093e9;
+                color:var(--primary);
                 &:hover{
-                    color:#1a5296;
+                    color:var(--heading);
                 }
             }
         }
@@ -38,24 +38,23 @@
     }
     &__btnsubmit{
         position: absolute;
-        right:2%;
+        right:1.2%;
         top: 12%;
-        color: #1a5296;
+        color: var(--heading);
         font-weight: bold;
         &:hover{
-            background-color: #1a5296;
+            background-color: var(--primary);
             color: white;
         }
     }
     &__input{
-        padding: 1.5rem 0;
-        padding-left: 30px;
+        padding: 1.5rem 2.5rem;
     }
     &__icon{
-        width: 20px;
-        height: 20px;
+        width: 1.2rem;
+        height: 1.2rem;
         position: absolute;
-        left: 5px;
+        left: 1rem;
         top: 30%;
     }
 }

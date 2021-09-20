@@ -4,13 +4,16 @@ import { useTranslation } from 'react-i18next';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
 import "./style.scss";
+import PropTypes from 'prop-types';
 
 Banner.propTypes = {
-    
+    dataVersion: PropTypes.array,
 };
 
 
-function Banner(props) {
+function Banner({dataVersion}) {
+    const lastestVersion = dataVersion[0]?.versionNumber;
+    
     const [toEmail,setToEmail] = useState("");
 
     const MySwal = withReactContent(Swal);
@@ -52,8 +55,7 @@ function Banner(props) {
                <div className="row justify-content-center">
                    <div className="col-lg-7 mt-5">
                        <p className="banner__heading mt-3">{t('hasbeenupgraded')}</p>
-                        <p className="banner__subheading">v1.3</p>
-                        <p>{t('fastestway')} <a href="https://wordsmine.com/" className="banner__link">{t('getstated')}</a> </p>
+                       <p className="banner__subheading">v{lastestVersion}</p>
                     </div>
                </div>
                <div className="row justify-content-center blog">
@@ -61,8 +63,7 @@ function Banner(props) {
                         <p>{t('wordsmineis')} <a href="https://chrome.google.com/webstore/detail/wordsmine-one-stop-soluti/pfjninionlecmhganagpckidcmhgjlhd">{t('installextension')}</a> </p> 
                     </div>
                </div>
-               <hr />
-               <div className="row justify-content-center subscribe">
+               <div className="row justify-content-center subscribe mt-3">
                    <div className="col-lg-7">
                        <div className="row">
                            <div className="col-lg-4">

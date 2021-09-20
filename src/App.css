@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
+:root {
+  --primary:#1890ff;
+  --heading:#1a5296;
+}
 .App {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -7,6 +10,7 @@
 }
 html {
   scroll-behavior: smooth;
+  
 }
 ul{
   list-style: none;

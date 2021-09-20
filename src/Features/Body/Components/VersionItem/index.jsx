@@ -18,10 +18,10 @@ function VersionItem(props) {
         <>
           <a href={'#'+link}>
             <div className="row version">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-6">
                     {version}
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-6">
                     {date}
                     </div>
             </div>

@@ -10,20 +10,36 @@ VersionContent.propTypes = {
 };
 
 function VersionContent({version}) {
-    const { t } = useTranslation();
     
+    const { t,i18n  } = useTranslation();
+
+    let newFeatures ;
+    let improvements;
+    let bugFixes;
+
+    if(i18n.language === "vi"){
+        newFeatures     = "newFeaturesVN";
+        improvements    = "improvementsVN";
+        bugFixes        = "bugFixesVN";
+    }else{
+        newFeatures     = "newFeatures";
+        improvements    = "improvements";
+        bugFixes        = "bugFixes";
+    }
+
     return (
         <div>
                 {
                     version.map((value,index)=>(
-                        <div className="versioncontent" id={value.version} key={index}>
-                            <h3 className="versioncontent__version">{t('versions')} {value.version}</h3>
+                        <div className="versioncontent" id={value.versionNumber} key={index}>
+                            <h3 className="versioncontent__version">{t('versions')} {value.versionNumber}</h3>
 
-                            <div className="versioncontent__heading">
-                                {(value.newfeatues.length >0) && t('newfeatures')}
+                           <div className="versioncontent__heading">
+                                {(value[newFeatures]?.length> 0) && t('newfeatures')}
                             </div>
+                         
                             <ul>
-                                {(value.newfeatues.length >0) && value.newfeatues.map((value,index)=>(
+                                {(value[newFeatures]?.length >0 )  && value[newFeatures]?.map((value,index)=>(
                                     <li key={index}>
                                         <div className="versioncontent__icon">
                                             <IoIosCheckmarkCircleOutline/>
@@ -34,11 +50,12 @@ function VersionContent({version}) {
                                     </li>
                                 ))}
                             </ul>
+                            
                             <div className="versioncontent__heading">
-                                {(value.improvements.length >0) && t('improvements')}
+                                {(value[improvements]?.length >0) && t('improvements')}
                             </div>
                             <ul>
-                                {(value.improvements.length >0) && value.improvements.map((value,index)=>(
+                                {(value[improvements]?.length >0) && value[improvements]?.map((value,index)=>(
                                     <li key={index}>
                                         <div className="versioncontent__icon">
                                             <IoMdColorFilter/>
@@ -51,10 +68,10 @@ function VersionContent({version}) {
                             </ul>
                             
                             <div className="versioncontent__heading">
-                                {(value.bugfixes.length >0) && t('bugfixes')}
+                                {(value[bugFixes]?.length >0) && t('bugfixes')}
                             </div>
                             <ul>
-                                {(value.bugfixes.length >0) && value.bugfixes.map((value,index)=>(
+                                {(value[bugFixes]?.length >0) && value[bugFixes]?.map((value,index)=>(
                                     <li key={index}>
                                         <div className="versioncontent__icon">
                                             <IoBugOutline/>
