@@ -12,11 +12,9 @@ const { Option } = Select;
 
 function Header() {
     const { t } = useTranslation();
-    const [language,setLanguage] = useState();
 
     function changeLanguage(value){
         i18n.changeLanguage(value);
-        setLanguage(value);
     }
     
     return (
