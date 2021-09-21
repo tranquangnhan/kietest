@@ -26,7 +26,7 @@ function Header() {
                              <h1>WordsMine!</h1>
                         </div>
                     </div>
-                    <div className="col-lg-10 col-5 mt-3 ">
+                    <div className="col-lg-10 col-5 mt-2 pt-1">
                          <div className="row menuDesktop">
                              <div className="col-lg-7 pl-5 pr-0">
                                 <nav className="nav justify-content-end w-100">
@@ -34,15 +34,17 @@ function Header() {
                                   <a className="nav-link" href="https://wordsmine.com/#overview">{t('whatis')}</a>
                                   <a className="nav-link" href="https://wordsmine.com/#newfeature">{t('newfeatures')}</a>
                                   <a className="nav-link" href="https://wordsmine.com/#testimonial">{t('review')}</a>
+                                 
                                 </nav>
                              </div>
                              <div className="col-lg-5">
                                 <div className="row btnheader">
                                     <div className="col-lg-4 p-0">
-                                        <a  className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" role="button">{t('webapp')}</a>
+                                        <a className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" >{t('webapp')}</a>
                                     </div>
                                     <div className="col-lg-4 pr-0">
-                                        <a  className="btn  btnheader__login " href="https://app.wordsmine.com/" role="button">{t('join')}</a>
+                                        <a className="btn  btnheader__login " href="https://app.wordsmine.com/" >{t('login')}</a>
+                                       
                                     </div>
                                     <div className="col-lg-4 d-flex align-items-center justify-content-center">
                                          <Select defaultValue="English" style={{ width: 120 }} onChange={changeLanguage}>
@@ -69,10 +71,10 @@ function Header() {
                                     <a className="nav-link" href="https://wordsmine.com/#testimonial">{t('review')}</a>
                                     <div className="row btnheader">
                                         <div className="col-lg-2 col-6 ">
-                                            <a  className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" role="button">{t('webapp')}</a>
+                                            <a  className="btn w-100  btnheader__try" href="https://app.wordsmine.com/" role="button">{t('login')}</a>
                                         </div>
                                         <div className="col-lg-2 col-6 ">
-                                            <a  className="btn  btnheader__login " href="https://app.wordsmine.com/" role="button">{t('join')}</a>
+                                            <a  className="btn  btnheader__login " href="https://app.wordsmine.com/" role="button">{t('joinnow')}</a>
                                         </div>
                                     </div>
                                     </ul>

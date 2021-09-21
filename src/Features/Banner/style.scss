@@ -6,10 +6,13 @@
         font-size: 2.125rem;
         color: var(--heading);
         font-weight: bold;
+        margin-top: 3rem;
+        margin-bottom: 0;
     }
     &__subheading{
         color: var(--heading);
         font-size: 1.3rem;
+        margin-bottom: 3rem;
     }
     &__link{
         color:rgba(0, 147, 233, 0.7);
@@ -19,6 +22,7 @@
         padding: 2rem;
         p{
             color:white;
+            margin-bottom: 0;
             a{
                 color:var(--primary);
                 &:hover{

@@ -54,7 +54,7 @@ function Banner({dataVersion}) {
            <div className="container-fluid banner">
                <div className="row justify-content-center">
                    <div className="col-lg-7 mt-5">
-                       <p className="banner__heading mt-3">{t('hasbeenupgraded')}</p>
+                       <p className="banner__heading">{t('hasbeenupgraded')}</p>
                        <p className="banner__subheading">v{lastestVersion}</p>
                     </div>
                </div>
