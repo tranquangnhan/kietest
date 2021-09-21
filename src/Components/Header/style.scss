@@ -26,6 +26,9 @@
         font-weight: 600;
         color: var(--primary);
         position: relative;
+        &:hover{
+            color:rgba(0,147,233,.7);
+        }
     }
     .nav-link:not(:last-child)::after{
         content: "";
