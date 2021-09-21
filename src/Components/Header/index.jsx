@@ -11,12 +11,12 @@ Header.propTypes = {
 const { Option } = Select;
 
 function Header() {
-    const { t,i18n } = useTranslation();
+    const { t } = useTranslation();
     
     function changeLanguage(value){
         i18n.changeLanguage(value);
     }
-    
+
     return (
         <div>
             <div className="container-fluid bg-menu position-fixed">

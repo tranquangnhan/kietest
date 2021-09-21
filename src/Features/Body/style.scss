@@ -10,6 +10,7 @@
         z-index: 1;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         overflow: hidden;
+        font-size: 12pt;
     }
     &__versionleft{
         width:100% ;
@@ -17,8 +18,8 @@
         overflow-x: hidden; 
         padding-right: 10px;
         padding-bottom: 10px;
-        border-radius:10px;
         color: #222b54;
+       
     }
     &__heading{
         color: var(--heading);
@@ -53,7 +54,14 @@
         margin-top: 10px;
     }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .body{
+      
+        &__heading{
+            margin-top: 2rem;
+        }
+    }
+}
 @media only screen and (max-width: 767px) {
     .body{
         &__version{

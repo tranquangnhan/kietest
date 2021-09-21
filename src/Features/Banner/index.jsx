@@ -66,7 +66,7 @@ function Banner({dataVersion}) {
                <div className="row justify-content-center subscribe mt-3">
                    <div className="col-lg-7">
                        <div className="row">
-                           <div className="col-lg-4">
+                           <div className="col-lg-4 d-flex align-items-center ">
                                 <p className="subscribe__text">{t('subscribe')}</p> 
                            </div>
                            <div className="col-lg-8">
