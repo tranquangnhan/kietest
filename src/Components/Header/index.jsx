@@ -11,8 +11,8 @@ Header.propTypes = {
 const { Option } = Select;
 
 function Header() {
-    const { t } = useTranslation();
-
+    const { t,i18n } = useTranslation();
+    
     function changeLanguage(value){
         i18n.changeLanguage(value);
     }
@@ -47,7 +47,7 @@ function Header() {
                                        
                                     </div>
                                     <div className="col-lg-4 d-flex align-items-center justify-content-center">
-                                         <Select defaultValue="English" style={{ width: 120 }} onChange={changeLanguage}>
+                                         <Select defaultValue={i18n.language} style={{ width: 120 }} onChange={changeLanguage}>
                                             <Option value="en">English</Option>
                                             <Option value="vi">Tiếng Việt</Option>
                                         </Select>
