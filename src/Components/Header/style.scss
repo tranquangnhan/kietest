@@ -52,7 +52,10 @@
         font-weight: 500;
         border-radius: 10px;
         font-size: 13pt;
-        font-weight: 600;
+        font-weight: 500;
+        &:hover{
+            background-color: rgba(255,193,0,.7);
+        }
     }
     &__login{
         color: var(--primary);
@@ -61,7 +64,7 @@
         font-weight: 500;
         border-radius: 10px;
         font-size: 13pt;
-        font-weight: 600;
+        font-weight: 500;
         border:1px solid var(--primary);
         &:hover{
             color: var(--primary);
